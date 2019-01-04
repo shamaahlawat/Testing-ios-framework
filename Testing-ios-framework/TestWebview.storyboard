@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Test Controller-->
         <scene sceneID="iEm-Sz-Vww">
             <objects>
-                <viewController id="UPH-vj-gIy" sceneMemberID="viewController">
+                <viewController id="UPH-vj-gIy" customClass="TestController" customModule="Testing_ios_framework" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iE7-cR-7EN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -32,10 +32,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="cKQ-dS-3Ok"/>
                     </view>
+                    <connections>
+                        <outlet property="testwebview" destination="nBJ-AA-536" id="JvC-M0-L84"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xum-Yh-BeK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="189.59999999999999" y="158.77061469265368"/>
+            <point key="canvasLocation" x="276" y="67"/>
         </scene>
     </scenes>
 </document>

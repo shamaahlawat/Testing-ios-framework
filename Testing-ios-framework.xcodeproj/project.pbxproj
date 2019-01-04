@@ -10,9 +10,9 @@
 		26FEEEC721DF2820004F9D04 /* Testing_ios_framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26FEEEBD21DF2820004F9D04 /* Testing_ios_framework.framework */; };
 		26FEEECC21DF2820004F9D04 /* Testing_ios_frameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEEECB21DF2820004F9D04 /* Testing_ios_frameworkTests.swift */; };
 		26FEEECE21DF2820004F9D04 /* Testing_ios_framework.h in Headers */ = {isa = PBXBuildFile; fileRef = 26FEEEC021DF2820004F9D04 /* Testing_ios_framework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		26FEEED821DF2886004F9D04 /* Test_webview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEEED721DF2886004F9D04 /* Test_webview.swift */; };
 		26FEEEDA21DF28AC004F9D04 /* TestWebview.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26FEEED921DF28AC004F9D04 /* TestWebview.storyboard */; };
 		26FEEEDD21DF29A5004F9D04 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 26FEEEDC21DF29A5004F9D04 /* index.html */; };
+		26FEEEE321DF3D4A004F9D04 /* TestController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26FEEEE221DF3D4A004F9D04 /* TestController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,9 +32,9 @@
 		26FEEEC621DF2820004F9D04 /* Testing-ios-frameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Testing-ios-frameworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		26FEEECB21DF2820004F9D04 /* Testing_ios_frameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Testing_ios_frameworkTests.swift; sourceTree = "<group>"; };
 		26FEEECD21DF2820004F9D04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		26FEEED721DF2886004F9D04 /* Test_webview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Test_webview.swift; sourceTree = "<group>"; };
 		26FEEED921DF28AC004F9D04 /* TestWebview.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TestWebview.storyboard; sourceTree = "<group>"; };
 		26FEEEDC21DF29A5004F9D04 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; name = index.html; path = ../../ColorPickerView/index.html; sourceTree = "<group>"; };
+		26FEEEE221DF3D4A004F9D04 /* TestController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +80,8 @@
 				26FEEEDC21DF29A5004F9D04 /* index.html */,
 				26FEEEC021DF2820004F9D04 /* Testing_ios_framework.h */,
 				26FEEEC121DF2820004F9D04 /* Info.plist */,
-				26FEEED721DF2886004F9D04 /* Test_webview.swift */,
 				26FEEED921DF28AC004F9D04 /* TestWebview.storyboard */,
+				26FEEEE221DF3D4A004F9D04 /* TestController.swift */,
 			);
 			path = "Testing-ios-framework";
 			sourceTree = "<group>";
@@ -206,7 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26FEEED821DF2886004F9D04 /* Test_webview.swift in Sources */,
+				26FEEEE321DF3D4A004F9D04 /* TestController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

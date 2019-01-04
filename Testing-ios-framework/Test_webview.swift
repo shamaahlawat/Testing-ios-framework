@@ -8,10 +8,12 @@
 
 import Foundation
 import WebKit
+import UIKit
 
-public class TestWebview {
+public class TestWebview : UIViewController {
 
-//    
+    @IBOutlet weak var testwebview: WKWebView!
+    //
 //    public init() {
 //        let htmlpath = Bundle.main.path(forResource: "index", ofType: "html")
 //        print(htmlpath)
